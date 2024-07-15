@@ -1,0 +1,22 @@
+.ubicacion{
+    width: 50vh;
+    height: 50vh;
+    margin: 5%;
+    background-color: #FFC82C;
+    align-items : center ;
+    justify-content: center;
+    padding: 30px;
+
+   h3 {
+    text-decoration: line-through;}
+}
+.clase{
+    @include flex (column , center , center , 10px);
+    flex-wrap: wrap;
+    background-color: $bg-color;
+}
+.mapa img {
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+}

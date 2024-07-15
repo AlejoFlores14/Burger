@@ -1,0 +1,41 @@
+footer{
+    background-color: $main-color;
+    height: auto;
+    width: 100vw;
+    color: $font-color;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    .footer-content{
+        @include flex(column , center , space-between ,0);
+        padding-top : 50px;
+        h3{
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 3rem;
+        }
+        p{
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+        }
+    }
+    .redes-footer{
+        list-style: none ;
+        @include flex ( row , center ,center , 0px);
+        li{
+           margin: 0 10px; 
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        i{
+            font-size: 1.1rem;
+         }
+       
+        }
+    }
+}

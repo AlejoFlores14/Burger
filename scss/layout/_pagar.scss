@@ -1,0 +1,21 @@
+
+.cont-pagar{
+    @include flex (column, center , center , 10px);
+    padding: 15px;
+    .pagar{
+        @include flex (column, center , center , 10px);
+        .boton{
+            border-radius: 10%;
+            font-size: 1.5rem;            
+            background-color: $bg-color;
+            padding: 1rem;
+            text-transform: uppercase;
+            transition: .3 ease all;
+            &:hover{
+                background-color: $main-color;
+                color:black;
+            }
+        }
+    }
+}
+    
