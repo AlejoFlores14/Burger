@@ -8,26 +8,6 @@ body {
   background: #fde3a7;
 }
 
-h1 {
-  font-size: 3.5em;
-  font-family: "Montserrat", sans-serif;
-}
-
-h2 {
-  font-size: 2.7em;
-  font-family: "Courier New", Courier, monospace;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-p, a {
-  font-size: 1.25em;
-  text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-}
-
 ul {
   list-style: none;
 }
@@ -46,7 +26,7 @@ header {
   align-items: center;
 }
 .logo img {
-  height: 50px;
+  height: 70px;
   margin: 10px;
   padding-left: 30px;
 }
@@ -57,18 +37,29 @@ header {
 }
 .lista ul a {
   text-decoration: none;
-  color: #000;
+  color: #fde3a7;
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 13px;
   padding: 20px;
+}
+.lista ul a:hover {
+  background-color: rgba(235, 50, 50, 0.877);
+  color: #fde3a7;
+  transform: scale(0.9);
 }
 .lista .nav-linkped {
   display: flex;
-  gap: 5px;
-  background-color: yellow;
+  width: 100%;
+  background-color: #f9b42d;
   border-radius: 13px;
 }
 .lista .nav-linkped:hover {
   background-color: rgba(243, 222, 37, 0.877);
-  transform: scale(1.2);
+  transform: scale(0.9);
 }
 
 footer {
@@ -128,7 +119,7 @@ footer .redes-footer a i {
 }
 
 .product {
-  background-color: rgba(243, 188, 36, 0.5254901961);
+  background-color: #f1d693;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 6px;
@@ -155,9 +146,10 @@ footer .redes-footer a i {
 .product-body {
   text-align: center;
   gap: 10px;
+  font-family: "Sen", sans-serif;
 }
 .product-body button {
-  background-color: rgb(153, 0, 0);
+  background-color: #f9b42d;
   width: 90%;
   height: 45px;
   transition: 1s;
@@ -236,7 +228,7 @@ footer .redes-footer a i {
   color: rgba(253, 253, 211, 0.811);
   bottom: 0;
   width: 100%;
-  height: 20%;
+  height: 50%;
   padding: 2.2rem;
   overflow: hidden;
   transition: 0.7s;
