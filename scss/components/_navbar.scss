@@ -1,9 +1,8 @@
 header {
-  background-color: red;
-  min-height: 80px;
+  background-color: rgb(153, 0, 0);
+  min-height: 50px;
   align-items: center;
   padding: 10px;
-  position: sticky;
   top: 0;
   z-index: 1;
 }
@@ -22,9 +21,22 @@ header {
     list-style: none;
 
     a {
+      
       text-decoration: none;
       color: #000;
       padding: 20px;
     }
+    
+  }
+  .nav-linkped{
+    display: flex;  
+    padding: 10px;
+    gap: 5px;
+    background-color: yellow;
+    
+    &:hover{
+      background-color: green;
+      transform: scale(1.2);
+    } 
   }
 }
