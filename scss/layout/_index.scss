@@ -89,19 +89,12 @@
             grid-template-columns: repeat(1,1fr);
         }
     }
-.contenedor-pagos{
-    padding: 2rem;
-    @include flex(column, center, center,10px);
-    
-    h2{
-        font-size: 2rem;
-        font-weight: 900;
-        font-style:unset;
-        text-decoration: underline ;
-    }
-    .pagos{ 
-    background-color: $main-color;
-    padding: 2rem;
-    border: solid black;
-    gap: 2rem ;
-   }  }
+.combosh2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding: 10px;
+   
+   
+}

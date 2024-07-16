@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #fde3a7;
+}
+
 h1 {
   font-size: 3.5em;
   font-family: "Montserrat", sans-serif;
@@ -58,12 +62,12 @@ header {
 }
 .lista .nav-linkped {
   display: flex;
-  padding: 10px;
   gap: 5px;
   background-color: yellow;
+  border-radius: 13px;
 }
 .lista .nav-linkped:hover {
-  background-color: green;
+  background-color: rgba(243, 222, 37, 0.877);
   transform: scale(1.2);
 }
 
@@ -265,25 +269,12 @@ footer .redes-footer a i {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.contenedor-pagos {
-  padding: 2rem;
+.combosh2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 10px;
-}
-.contenedor-pagos h2 {
-  font-size: 2rem;
-  font-weight: 900;
-  font-style: unset;
-  text-decoration: underline;
-}
-.contenedor-pagos .pagos {
-  background-color: rgb(153, 0, 0);
-  padding: 2rem;
-  border: solid black;
-  gap: 2rem;
+  align-items: center;
+  padding-top: 15px;
+  padding: 10px;
 }
 
 .cont-pagar {
